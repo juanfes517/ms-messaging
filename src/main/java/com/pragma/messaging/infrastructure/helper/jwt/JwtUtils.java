@@ -1,4 +1,4 @@
-package com.pragma.messaging.infrastructure.helper;
+package com.pragma.messaging.infrastructure.helper.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

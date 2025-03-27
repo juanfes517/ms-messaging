@@ -1,4 +1,4 @@
-package com.pragma.messaging.infrastructure.helper;
+package com.pragma.messaging.infrastructure.helper.constants;
 
 public class SecurityConstants {
 

@@ -1,6 +1,6 @@
 package com.pragma.messaging.infrastructure.configuration.securityfilter;
 
-import com.pragma.messaging.infrastructure.helper.JwtUtils;
+import com.pragma.messaging.infrastructure.helper.jwt.JwtUtils;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

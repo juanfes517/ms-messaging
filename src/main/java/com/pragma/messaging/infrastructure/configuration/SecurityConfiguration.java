@@ -1,12 +1,11 @@
 package com.pragma.messaging.infrastructure.configuration;
 
 import com.pragma.messaging.infrastructure.configuration.securityfilter.JwtTokenValidator;
-import com.pragma.messaging.infrastructure.helper.JwtUtils;
-import com.pragma.messaging.infrastructure.helper.SecurityConstants;
+import com.pragma.messaging.infrastructure.helper.jwt.JwtUtils;
+import com.pragma.messaging.infrastructure.helper.constants.SecurityConstants;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
