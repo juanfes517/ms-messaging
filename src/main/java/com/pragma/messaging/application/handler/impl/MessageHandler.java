@@ -1,5 +1,6 @@
 package com.pragma.messaging.application.handler.impl;
 
+import com.pragma.messaging.application.handler.IMessageHandler;
 import com.pragma.messaging.domain.api.IMessageServicePort;
 import com.pragma.messaging.domain.model.Message;
 import lombok.RequiredArgsConstructor;
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class MessageHandler implements IMessageServicePort {
+public class MessageHandler implements IMessageHandler {
 
     private final IMessageServicePort messageServicePort;
 
