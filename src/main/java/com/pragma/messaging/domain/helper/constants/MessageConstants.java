@@ -1,4 +1,4 @@
-package com.pragma.messaging.helper.constants;
+package com.pragma.messaging.domain.helper.constants;
 
 public class MessageConstants {
 

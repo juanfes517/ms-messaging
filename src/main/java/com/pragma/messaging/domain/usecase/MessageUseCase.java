@@ -3,7 +3,7 @@ package com.pragma.messaging.domain.usecase;
 import com.pragma.messaging.domain.api.IMessageServicePort;
 import com.pragma.messaging.domain.model.Message;
 import com.pragma.messaging.domain.spi.ITwilioExternalService;
-import com.pragma.messaging.helper.constants.MessageConstants;
+import com.pragma.messaging.domain.helper.constants.MessageConstants;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

@@ -2,7 +2,7 @@ package com.pragma.messaging.domain.usecase;
 
 import com.pragma.messaging.domain.model.Message;
 import com.pragma.messaging.domain.spi.ITwilioExternalService;
-import com.pragma.messaging.helper.constants.MessageConstants;
+import com.pragma.messaging.domain.helper.constants.MessageConstants;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
