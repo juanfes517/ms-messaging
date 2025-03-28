@@ -1,8 +1,8 @@
 package com.pragma.messaging.application.handler;
 
-import com.pragma.messaging.domain.model.Message;
+import com.pragma.messaging.application.dto.request.MessageRequestDto;
 
 public interface IMessageHandler {
 
-    String sendOrderReadyMessage(Message message);
+    String sendOrderReadyMessage(MessageRequestDto message);
 }
