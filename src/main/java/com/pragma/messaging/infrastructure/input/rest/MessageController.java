@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1/messages")
+@RequestMapping(ApiConstants.MESSAGE_CONTROLLER)
 @RequiredArgsConstructor
 public class MessageController {
 
@@ -26,7 +26,7 @@ public class MessageController {
             @ApiResponse(responseCode = "200", description = ApiConstants.OK_DESCRIPTION, content = @Content),
             @ApiResponse(responseCode = "500", description = ApiConstants.INTERNAL_SERVER_ERROR_DESCRIPTION, content = @Content)
     })
-    @PostMapping("/ready-message")
+    @PostMapping(ApiConstants.SEND_ORDER_READY_ENDPOINT)
     public ResponseEntity<String> sendOrderReadyMessage(@RequestBody MessageRequestDto message) {
         return ResponseEntity.ok(messageHandler.sendOrderReadyMessage(message));
     }
